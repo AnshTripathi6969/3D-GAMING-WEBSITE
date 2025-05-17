@@ -1,6 +1,6 @@
-# 🕹️ IlluVerse – Next-Gen 3D Gaming Web Experience
+# 🕹️ Vortixel – Next-Gen 3D Gaming Web Experience
 
-Welcome to **IlluVerse** – a hyper-stylized, animated, responsive 3D gaming-themed website built to immerse users in a visually captivating, neon-drenched digital realm.
+Welcome to **Vortixel** – a hyper-stylized, animated, responsive 3D gaming-themed website built to immerse users in a visually captivating, neon-drenched digital realm.
 
 ![Preview](./public/images/illu-logo.png)
 
