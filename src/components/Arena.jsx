@@ -23,10 +23,10 @@ const Arena = () => {
             <div className="absolute h-full w-full">
               <img
                 src="/images/bento-card1.png"
-                alt="card-1"
+                alt="NFT Store Card"
                 className="w-full h-full object-cover"
               />
-              <button className="absolute bottom-0 h-16 w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-400 transition-all duration-300 text-nowrap">
+              <button className="absolute bottom-0 h-16 w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-400 transition-all duration-300 whitespace-nowrap">
                 <i className="bx bx-store-alt"></i> NFT STORE
               </button>
             </div>
@@ -41,7 +41,7 @@ const Arena = () => {
               muted
               playsInline
               src="/videos/bento-card2.mp4"
-            ></video>
+            />
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const Arena = () => {
                 muted
                 playsInline
                 src="/videos/bento-card3.mp4"
-              ></video>
+              />
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-2xl text-white font-extrabold">
                 Scoriox
               </h1>
@@ -69,8 +69,8 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src="public\videos\bento-card4.mp4"
-              ></video>
+                src="/videos/bento-card4.mp4"
+              />
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-2xl text-white font-extrabold">
                 Floralynx
               </h1>
@@ -83,28 +83,29 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src="public\videos\bento-card5.mp4"
-              ></video>
+                src="/videos/bento-card5.mp4"
+              />
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-2xl text-white font-extrabold">
                 Tinanor
               </h1>
             </div>
           </div>
 
-             <div className='relative overflow-hidden rounded-3xl border border-white aspect-[16/9] md:col-span-2 transform transition-transform duration-300 hover:scale-[1.02]'>
+          <div className="relative overflow-hidden rounded-3xl border border-white aspect-[16/9] md:col-span-2 transform transition-transform duration-300 hover:scale-[1.02]">
+            <img
+              src="/images/bento-card5.png"
+              alt="Buy Now Card"
+              className="w-full h-full object-cover"
+            />
 
-             <img src="public\images\bento-card5.png" alt="card-6"/>
-
-             <button className='absolute bottom-0 h-16 w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-400 transition-all duration-300 text-nowrap'>
-              <i class='bx bx-link-external'></i> BUY NOW
-             </button>
-              
-             </div>
-
+            <button className="absolute bottom-0 h-16 w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-400 transition-all duration-300 whitespace-nowrap">
+              <i className="bx bx-link-external"></i> BUY NOW
+            </button>
+          </div>
         </div>
       </div>
     </div>
   )
 }
 
-export default Arena;
+export default Arena
